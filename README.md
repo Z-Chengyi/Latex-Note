@@ -13,11 +13,27 @@
 ```
 接下来需要在bib文件里添加我们引用的文章
 
-我们需要在google scholar上复制bibtex并添加到文件中（截图来自步骤记录器）
+我们需要在google scholar上复制bibtex并添加到文件中（截图来自步骤记录器，鼠标来自澄闪）
 
-![ex1](glodenglow.png)
+<img src='glodenglow.png' width=400/>
+
 接下来在文中使用\cite{}就可以对需要的论文进行引用
 
+比如这篇文章的bibtex
+```
+@inproceedings{zhang2022experimental,
+  title={An Experimental Study of Digital Communication System with Human Body as Communication Channel},
+  author={Zhang, Chengyi and Jin, Qingyun and Zhao, Mohan and Zhang, Dingguo and Lin, Lin},
+  booktitle={2022 IEEE-EMBS International Conference on Wearable and Implantable Body Sensor Networks (BSN)},
+  pages={1--4},
+  year={2022},
+  organization={IEEE}
+}
+```
+在文中引用就写成
+```
+\cite{zhang2022experimental}
+```
 ### 2.如何添加小信封标识
 如果投递paper时用到了Springer投稿模板LLCNS，我们可能需要用到小信封标识来指明留下的作者的邮箱是哪位作者的
 
