@@ -9,7 +9,7 @@
 
 Example:
 ```
-\hl{It is possible for us} to use nanomachine
+\hl{It is possible for us }to use nanomachine
 ```
 其效果如图所示
 
