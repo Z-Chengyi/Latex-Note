@@ -2,7 +2,7 @@
 ### 1.论文引用
 首先需要创建一个.bib文件用以存放引用的bibtex，这里比如我们创建一个名为refer.bib的文件
 
-在文章末尾添加
+在文章末尾添加(\end{document}之前)
 ```
 \bibliographystyle{IEEEtran} %ieeetrans的引用格式
 \bibliography{refer} % refer就是之前建立的refer.bib文件的前缀
@@ -13,7 +13,7 @@
 ```
 接下来需要在bib文件里添加我们引用的文章
 
-我们需要在google scholar上复制bibtex并添加到文件中（截图来自步骤记录器，鼠标来自澄闪）
+我们需要在google scholar上复制bibtex并添加到文件中(截图来自步骤记录器，鼠标来自澄闪)
 
 <img src='glodenglow.png' width=400/>
 
