@@ -70,3 +70,17 @@ Example:
 其效果如图所示
 
 ![ex1](image.png)
+
+而对于\cite{}指令则需要在文章宏包添加之后声明
+```
+\soulregister\cite7
+```
+便可以在引用处使用\hl{}指令实现高亮，否则会发生报错
+
+Example:
+```
+in the tissue and venous blood \hl{\cite{luo2006}}.
+```
+其效果如图所示
+
+![exx](imagecite.png)
