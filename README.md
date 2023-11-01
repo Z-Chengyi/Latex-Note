@@ -84,3 +84,32 @@ in the tissue and venous blood \hl{\cite{luo2006}}.
 其效果如图所示
 
 ![exx](imagecite.png)
+
+### 4.Reply琐记
+今天在写Reply的时候发现了这样一件事，由于Reply中的引用一般以\emph实现，而论文中的引用上面已经提到了用bibtex实现
+
+Reply中我们一般是这么写的
+```
+ [1]  \emph{N. Farsad, H. B. Yilmaz, A. Eckford, C.-B. Chae, and W. Guo, “A comprehensive survey of recent advancements in molecular communication,” IEEE Commun. Surv. Tutor., vol. 18, no. 3, pp. 1887–1919, 2016.}
+```
+然后正文中直接使用[1],[2]等标记表示引用
+
+结果遇到了这样一篇文献
+![re](refer.png)
+作者貌似是西班牙人，名字上带音标，所以我在Reply中引用时候考虑用公式$\'a$和$\'A$来实现字母顶音标的情况
+
+也就是
+```
+[1]  \emph{J. Li, B. Esteban-Fern$\'a$ndez de $\'A$vila, W. Gao, L. Zhang, and J. Wang, “Micro/nanorobots for biomedicine: Delivery, surgery, sensing, and detoxification,” Science robotics, vol. 2, no. 4, p.eaam6431, 2017.}
+```
+没想到报错了
+
+![qe](que.png)
+
+其实这里直接text表示而非采用数学公式表示就可以直接解决这个问题，即
+```
+[1]  \emph{J. Li, B. Esteban-Fern{\'a}ndez de {\'A}vila, W. Gao, L. Zhang, and J. Wang, “Micro/nanorobots for biomedicine: Delivery, surgery, sensing, and detoxification,” Science robotics, vol. 2, no. 4, p.eaam6431, 2017.}
+```
+
+
+![qq](qq.png)
