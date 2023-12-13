@@ -113,5 +113,9 @@ Reply中我们一般是这么写的
 [1]  \emph{J. Li, B. Esteban-Fern{\'a}ndez de {\'A}vila, W. Gao, L. Zhang, and J. Wang, “Micro/nanorobots for biomedicine: Delivery, surgery, sensing, and detoxification,” Science robotics, vol. 2, no. 4, p.eaam6431, 2017.}
 ```
 
-
 ![qq](qq.png)
+
+### 5.没啥用的小技巧
+Google Scholar在设置里可以设置快捷引用，如下图所示，这样就可以直达需要引用的格式了
+
+![sc](scholar.png)
