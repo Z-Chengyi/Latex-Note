@@ -49,6 +49,8 @@ def extract_watermark(watermarked_image):
     for i in range(0, len(watermark_bits), 8):
         byte = watermark_bits[i:i+8]
         watermark_text += chr(int(''.join(byte), 2))
+    
+    return watermark_text.rstrip('\x00')
 # 嵌入水印
 watermarked_img = embed_watermark('path_to_your_image.jpg', 'YourWatermarkText')
 
@@ -59,4 +61,3 @@ Image.fromarray(np.uint8(watermarked_img)).save('watermarked_image.png')
 extracted_watermark = extract_watermark(Image.open('watermarked_image.png'))
 print(extracted_watermark)
 
-    return watermark_text.rstrip('\x00')
